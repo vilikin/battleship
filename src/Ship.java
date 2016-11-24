@@ -16,4 +16,9 @@ public class Ship {
     public void setSize(int size) {
         this.size = size;
     }
+
+    public boolean isAlive() {
+        // TODO method implementation
+        return true;
+    }
 }
