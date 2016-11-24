@@ -30,6 +30,11 @@ public class Ship {
         this.size = size;
     }
 
+    /**
+     * Returns true if and only if the ship is alive.
+     *
+     * @return True if the ship is alive, otherwise false.
+     */
     public boolean isAlive() {
         // TODO method implementation
         return true;
