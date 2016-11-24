@@ -11,7 +11,9 @@ public interface PlayerInterface {
      * Returns true if given coordinate contacts a ship.
      *
      * @param coord a coordination to be shot at.
-     * @return true if coordinate lands a ship.
+     * @return true if a ship locates in the given coordinate.
      */
     boolean shoot(Coordinate coord);
+
+    
 }
