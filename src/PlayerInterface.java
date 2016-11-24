@@ -15,5 +15,11 @@ public interface PlayerInterface {
      */
     boolean shoot(Coordinate coord);
 
+    /**
+     * Places a ship for the given coordinate.
+     *
+     * @param coord a coordination where ship is placed.
+     * @return true if a ship was succesfully placed at the coordinate.
+     */
     boolean placeShip(Coordinate coord);
 }
