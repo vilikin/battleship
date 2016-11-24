@@ -15,5 +15,5 @@ public interface PlayerInterface {
      */
     boolean shoot(Coordinate coord);
 
-    
+    boolean placeShip(Coordinate coord);
 }
