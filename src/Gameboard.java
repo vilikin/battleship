@@ -26,4 +26,8 @@ public class Gameboard {
         setWidth(width);
         setHeight(height);
     }
+
+    public String drawBoard(){
+        return null;
+    }
 }
