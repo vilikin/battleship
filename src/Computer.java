@@ -7,6 +7,9 @@
  **/
 public class Computer {
 
+    /**
+     * Default constructor for Computer.
+     */
     public Computer() {
 
     }
