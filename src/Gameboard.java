@@ -21,4 +21,9 @@ public class Gameboard {
     public int getHeight(){
         return height;
     }
+
+    public Gameboard(int width, int height){
+        setWidth(width);
+        setHeight(height);
+    }
 }
