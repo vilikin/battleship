@@ -1,7 +1,5 @@
 /**
- * TODO Short Description
- * <p>
- * TODO description and @since
+ * Runs the program.
  *
  * @author Erika Sankari
  * @version 2016.1124
