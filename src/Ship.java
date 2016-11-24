@@ -21,6 +21,11 @@ public class Ship {
         return size;
     }
 
+    /**
+     * Modifies ships size to given size.
+     *
+     * @param size Size to set to ship.
+     */
     public void setSize(int size) {
         this.size = size;
     }
