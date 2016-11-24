@@ -12,6 +12,11 @@ public class Ship {
      */
     private int size;
 
+    /**
+     * Retrieves the ship's size.
+     *
+     * @return This ship's size.
+     */
     public int getSize() {
         return size;
     }
