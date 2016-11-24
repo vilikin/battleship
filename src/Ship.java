@@ -7,6 +7,9 @@
  */
 public class Ship {
 
+    /**
+     * Holds how many grid cells the ship's size is.
+     */
     private int size;
 
     public int getSize() {
