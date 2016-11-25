@@ -26,7 +26,16 @@ public class Gameboard {
     public Gameboard(int width, int height){
         setWidth(width);
         setHeight(height);
-        board = new char[width][height];
+        createNewEmptyBoard();
+    }
+
+    public void createNewEmptyBoard() {
+        board = new char[height][width];
+        for (int i= 0; i < height; i++) {
+            for (int j = 0; j < width ; j++) {
+                board[i][j] = ' ';
+            }
+        }
     }
 
     public String drawBoard(){
