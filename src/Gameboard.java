@@ -1,6 +1,7 @@
 public class Gameboard {
     private int width;
     private int height;
+    private char[][] board;
 
     public void setWidth(int w){
         if(w > 0 && w <= 80){
@@ -25,6 +26,7 @@ public class Gameboard {
     public Gameboard(int width, int height){
         setWidth(width);
         setHeight(height);
+        board = new char[width][height];
     }
 
     public String drawBoard(){
