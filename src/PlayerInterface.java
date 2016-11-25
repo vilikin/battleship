@@ -23,5 +23,10 @@ public interface PlayerInterface {
      */
     boolean placeShip(Coordinate coord);
 
+    /**
+     * Adds a ship for the player.
+     *
+     * @param newShip a ship to be added for player.
+     */
     void addShip(Ship newShip);
 }
