@@ -48,4 +48,9 @@ public class Gameboard {
         }
         return result;
     }
+
+    @Override
+    public String toString(){
+        return drawBoard();
+    }
 }
