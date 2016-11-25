@@ -22,4 +22,6 @@ public interface PlayerInterface {
      * @return true if a ship was succesfully placed at the coordinate.
      */
     boolean placeShip(Coordinate coord);
+
+    void addShip(Ship newShip);
 }
