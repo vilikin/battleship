@@ -39,6 +39,13 @@ public class Gameboard {
     }
 
     public String drawBoard(){
-        return null;
+        String result = "";
+        for( int i = 0; i < height; i++){
+            for(int j = 0; j < width; j++) {
+                result += board[i][j];
+            }
+            result += "\n";
+        }
+        return result;
     }
 }
