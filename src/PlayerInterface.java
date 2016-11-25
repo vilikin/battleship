@@ -18,10 +18,11 @@ public interface PlayerInterface {
     /**
      * Places a ship for the given coordinate.
      *
+     * @param ship the ship to be placed on the gameboard.
      * @param coord a coordination where ship is placed.
      * @return true if a ship was succesfully placed at the coordinate.
      */
-    boolean placeShip(Coordinate coord);
+    boolean placeShip(Ship ship, Coordinate coord);
 
     /**
      * Adds a ship for the player.
