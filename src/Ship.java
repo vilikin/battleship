@@ -16,6 +16,9 @@ public class Ship {
      */
     private int size;
 
+    /**
+     * Holds the location of the start of the ship.
+     */
     private Coordinate startCoordinate;
 
     /**
