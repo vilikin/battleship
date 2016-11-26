@@ -26,6 +26,12 @@ public class Computer implements PlayerInterface {
         return false;
     }
 
+    /**
+     * Returns true if ship is located at given coordinate.
+     *
+     * @param coordinate Coodinate to shoot at
+     * @return True if a ship locates at the given coordinate.
+     */
     public boolean shoot(Coordinate coordinate) {
 
         return false;
