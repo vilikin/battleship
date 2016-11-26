@@ -1,3 +1,7 @@
+import javafx.util.Pair;
+
+import java.util.ArrayList;
+
 /**
  * Represents a battleship on the game board.
  *
@@ -38,5 +42,10 @@ public class Ship {
     public boolean isAlive() {
         // TODO method implementation
         return true;
+    }
+
+    public List<Coordinate> getCoveredCoordinates() {
+        // TODO method implementation
+        return null;
     }
 }
