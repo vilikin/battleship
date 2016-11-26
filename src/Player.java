@@ -2,6 +2,7 @@
  * Player includes simple methods for player and computer.
  *
  * @author Akash Singh
+ * @author Erika Sankari
  * @version 2016.1124
  * @since 1.7
  */ 
