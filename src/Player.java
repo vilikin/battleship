@@ -29,5 +29,5 @@ public abstract class Player {
      *
      * @param newShip a ship to be added for player.
      */
-    void addShip(Ship newShip);
+    abstract void addShip(Ship newShip);
 }
