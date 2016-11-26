@@ -5,7 +5,7 @@
  * @version 2016.1124
  * @since 1.7
  */ 
-public interface PlayerInterface {
+public abstract class PlayerInterface {
 
     /**
      * Returns true if given coordinate contacts a ship.
