@@ -7,6 +7,10 @@
  */ 
 public abstract class Player {
 
+    public Player() {
+
+    }
+
     /**
      * Returns true if given coordinate contacts a ship.
      *
