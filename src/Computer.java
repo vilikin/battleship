@@ -37,6 +37,11 @@ public class Computer implements PlayerInterface {
         return false;
     }
 
+    /**
+     * Adds a ship for the computer.
+     *
+     * @param newShip Ship to be added
+     */
     public void addShip(Ship newShip) {
 
     }
