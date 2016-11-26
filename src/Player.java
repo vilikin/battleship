@@ -22,7 +22,7 @@ public abstract class Player {
      * @param coord a coordination where ship is placed.
      * @return true if a ship was succesfully placed at the coordinate.
      */
-    boolean placeShip(Ship ship, Coordinate coord);
+    abstract boolean placeShip(Ship ship, Coordinate coord);
 
     /**
      * Adds a ship for the player.
