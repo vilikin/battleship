@@ -7,6 +7,9 @@
  */ 
 public abstract class Player {
 
+    /**
+     * Initiates player object.
+     */
     public Player() {
 
     }
