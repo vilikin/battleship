@@ -16,6 +16,8 @@ public class Ship {
      */
     private int size;
 
+    private Coordinate startCoordinate;
+
     /**
      * Retrieves the ship's size.
      *
