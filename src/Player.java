@@ -13,7 +13,7 @@ public abstract class Player {
      * @param coord a coordination to be shot at.
      * @return true if a ship locates in the given coordinate.
      */
-    boolean shoot(Coordinate coord);
+    abstract boolean shoot(Coordinate coord);
 
     /**
      * Places a ship for the given coordinate.
