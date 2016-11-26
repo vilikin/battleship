@@ -6,6 +6,10 @@
  * @since 1.7
  */
 public class Human {
+
+    /**
+     * Initiates values for the human object.
+     */
     public Human() {
 
     }
