@@ -21,6 +21,9 @@ public class Ship {
      */
     private Coordinate startCoordinate;
 
+    /**
+     * Holds the location of the end of the ship.
+     */
     private Coordinate endCoordinate;
 
     /**
