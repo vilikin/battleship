@@ -44,6 +44,11 @@ public class Ship {
         return true;
     }
 
+    /**
+     * Returns the coordinates the ship is covering.
+     *
+     * @return List of covered coordinates.
+     */
     public List<Coordinate> getCoveredCoordinates() {
         // TODO method implementation
         return null;
