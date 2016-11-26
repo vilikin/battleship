@@ -1,11 +1,11 @@
 /**
- * PlayerInterface includes simple methods for player and computer.
+ * Player includes simple methods for player and computer.
  *
  * @author Akash Singh
  * @version 2016.1124
  * @since 1.7
  */ 
-public abstract class PlayerInterface {
+public abstract class Player {
 
     /**
      * Returns true if given coordinate contacts a ship.
