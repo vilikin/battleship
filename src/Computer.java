@@ -25,4 +25,9 @@ public class Computer implements PlayerInterface {
 
         return false;
     }
+
+    public boolean shoot(Coordinate coordinate) {
+
+        return false;
+    }
 }
