@@ -14,6 +14,13 @@ public class Computer implements PlayerInterface {
 
     }
 
+    /**
+     * Places a ship to the given coordinate.
+     *
+     * @param ship The ship to be placed on the gameboard
+     * @param coordinate Ship's coordinate
+     * @return True if a ship was successfully placed to the coordinate.
+     */
     public boolean placeShip(Ship ship, Coordinate coordinate) {
 
         return false;
