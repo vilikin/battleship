@@ -36,4 +36,8 @@ public class Computer implements PlayerInterface {
 
         return false;
     }
+
+    public void addShip(Ship newShip) {
+
+    }
 }
