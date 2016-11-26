@@ -1,7 +1,3 @@
-import javafx.util.Pair;
-
-import java.util.ArrayList;
-
 /**
  * Represents a battleship on the game board.
  *
