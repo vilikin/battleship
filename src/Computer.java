@@ -13,4 +13,9 @@ public class Computer implements PlayerInterface {
     public Computer() {
 
     }
+
+    public boolean placeShip(Ship ship, Coordinate coordinate) {
+
+        return false;
+    }
 }
