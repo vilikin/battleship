@@ -11,12 +11,12 @@ public abstract class Player {
     /**
      * Indicates player's position on the game board in regards to x-axel.
      */
-    int x;
+    private int x;
 
     /**
      * Indicates player's position on the game board in regards to y-axel.
      */
-    int y;
+    private int y;
 
     /**
      * Initiates player object.
