@@ -67,6 +67,11 @@ public abstract class Player {
         this.x = x;
     }
 
+    /**
+     * Returns player's y-axel position on the game board.
+     *
+     * @return int y
+     */
     public int getY() {
         return y;
     }
