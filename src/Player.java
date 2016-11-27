@@ -49,6 +49,11 @@ public abstract class Player {
      */
     abstract void addShip(Ship newShip);
 
+    /**
+     * Returns player's x-axel position on the game board.
+     *
+     * @return int x
+     */
     public int getX() {
         return x;
     }
