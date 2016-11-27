@@ -58,6 +58,11 @@ public abstract class Player {
         return x;
     }
 
+    /**
+     * Changes player's x-axel position.
+     *
+     * @param x int new position
+     */
     public void setX(int x) {
         this.x = x;
     }
