@@ -9,6 +9,7 @@
 public abstract class Player {
 
     int x;
+    int y;
 
     /**
      * Initiates player object.
