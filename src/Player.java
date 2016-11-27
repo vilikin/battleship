@@ -53,4 +53,8 @@ public abstract class Player {
     public int getY() {
         return y;
     }
+
+    public void setY(int y) {
+        this.y = y;
+    }
 }
