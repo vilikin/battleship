@@ -8,6 +8,8 @@
  */ 
 public abstract class Player {
 
+    int x;
+
     /**
      * Initiates player object.
      */
