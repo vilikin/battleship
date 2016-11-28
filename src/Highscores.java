@@ -6,20 +6,15 @@
  * @since 1.8
  */
 public class Highscores {
-
-    public Highscores() {
-
-    }
-
-    public boolean save(Highscore highscore) {
+    public static boolean save(Highscore highscore) {
 
     }
 
-    public Highscore[] get(int scores) {
+    public static Highscore[] get(int scores) {
 
     }
 
-    public Highscore[] getAll() {
+    public static Highscore[] getAll() {
 
     }
 }
