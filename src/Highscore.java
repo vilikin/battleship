@@ -26,4 +26,8 @@ public class Highscore {
     public int getScore() {
         return score;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
