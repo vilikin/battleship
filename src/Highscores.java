@@ -27,6 +27,11 @@ public class Highscores {
 
     }
 
+    /**
+     * Gets all highscores from best to worst.
+     *
+     * @return  Array of highscore instances
+     */
     public static Highscore[] getAll() {
 
     }
