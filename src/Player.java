@@ -53,6 +53,11 @@ public abstract class Player {
         return name;
     }
 
+    /**
+     * Changes player's name to a given new name.
+     *
+     * @param name String new name
+     */
     public void setName(String name) {
         this.name = name;
     }
