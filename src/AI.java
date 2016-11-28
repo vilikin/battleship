@@ -5,5 +5,5 @@
  * @version 2016.1128
  * @since 1.7
  */
-public abstract class Ai {
+public abstract class AI {
 }
