@@ -9,6 +9,11 @@ public class Highscore {
     private String name;
     private int score;
 
+    /**
+     * Creates Highscore instance with name and score.
+     * @param name      Name of the person who got the score
+     * @param score     Score
+     */
     public Highscore(String name, int score) {
         this.name = name;
         this.score = score;
