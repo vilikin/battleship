@@ -7,6 +7,9 @@
  **/
 public class Computer implements PlayerInterface {
 
+    /**
+     * What ai should be used.
+     */
     private AI ai;
 
     /**
