@@ -8,6 +8,8 @@
  */ 
 public abstract class Player {
 
+    private String name;
+
     /**
      * Initiates player object.
      */
