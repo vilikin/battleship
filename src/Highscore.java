@@ -37,6 +37,11 @@ public class Highscore {
         return score;
     }
 
+    /**
+     * Sets name for the player.
+     *
+     * @param name  Name for the player
+     */
     public void setName(String name) {
         this.name = name;
     }
