@@ -6,6 +6,13 @@
  * @since 1.8
  */
 public class Highscores {
+
+    /**
+     * Saves highscore to a file.
+     *
+     * @param highscore Highscore instance to be saved
+     * @return  If operation was successful or not
+     */
     public static boolean save(Highscore highscore) {
 
     }
