@@ -18,6 +18,11 @@ public abstract class Player {
      */
     public Player() {}
 
+    /**
+     * Initiates player object with a name.
+     *
+     * @param name String name
+     */
     public Player(String name) {
         this.name = name;
     }
