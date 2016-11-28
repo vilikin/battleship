@@ -8,6 +8,9 @@
  */ 
 public abstract class Player {
 
+    /**
+     * Holds player's name.
+     */
     private String name;
 
     /**
