@@ -19,7 +19,7 @@ public abstract class Player {
     public Player() {}
 
     public Player(String name) {
-
+        this.name = name;
     }
 
     /**
