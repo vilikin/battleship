@@ -11,7 +11,7 @@ public class Highscores {
 
     }
 
-    public boolean save(String name, int score) {
+    public boolean save(Highscore highscore) {
 
     }
 }
