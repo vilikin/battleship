@@ -40,4 +40,8 @@ public abstract class Player {
      * @param newShip a ship to be added for player.
      */
     abstract void addShip(Ship newShip);
+
+    public String getName() {
+        return name;
+    }
 }
