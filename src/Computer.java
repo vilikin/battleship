@@ -7,6 +7,8 @@
  **/
 public class Computer extends Player {
 
+    private AI ai;
+
     /**
      * Default constructor for Computer.
      */
