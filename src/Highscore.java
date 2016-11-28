@@ -19,6 +19,11 @@ public class Highscore {
         this.score = score;
     }
 
+    /**
+     * Gets name of the player who got the score.
+     *
+     * @return Name of the player who got the score
+     */
     public String getName() {
         return name;
     }
