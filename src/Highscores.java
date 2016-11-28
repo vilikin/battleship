@@ -14,4 +14,8 @@ public class Highscores {
     public boolean save(Highscore highscore) {
 
     }
+
+    public Highscore[] get(int scores) {
+
+    }
 }
