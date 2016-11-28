@@ -7,6 +7,9 @@
  **/
 public class Computer extends Player {
 
+    /**
+     * What ai should be used.
+     */
     private AI ai;
 
     /**
