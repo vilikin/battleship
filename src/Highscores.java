@@ -18,4 +18,8 @@ public class Highscores {
     public Highscore[] get(int scores) {
 
     }
+
+    public Highscore[] getAll() {
+
+    }
 }
