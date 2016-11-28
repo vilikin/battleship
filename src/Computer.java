@@ -7,6 +7,8 @@
  **/
 public class Computer implements PlayerInterface {
 
+    private AI ai;
+
     /**
      * Default constructor for Computer.
      */
