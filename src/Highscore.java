@@ -28,6 +28,11 @@ public class Highscore {
         return name;
     }
 
+    /**
+     * Gets score of the player.
+     *
+     * @return Score of the player
+     */
     public int getScore() {
         return score;
     }
