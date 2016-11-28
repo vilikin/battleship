@@ -18,4 +18,8 @@ public class Highscore {
         this.name = name;
         this.score = score;
     }
+
+    public String getName() {
+        return name;
+    }
 }
