@@ -7,4 +7,9 @@
  */
 public class Highscores {
 
+    public Highscores() {
+
+    }
+
+
 }
