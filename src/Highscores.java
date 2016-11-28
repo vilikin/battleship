@@ -17,6 +17,12 @@ public class Highscores {
 
     }
 
+    /**
+     * Gets top x highscores.
+     *
+     * @param scores How many top scores to display
+     * @return Array of highscore instances
+     */
     public static Highscore[] get(int scores) {
 
     }
