@@ -44,6 +44,11 @@ public abstract class Player {
      */
     abstract void addShip(Ship newShip);
 
+    /**
+     * Returns player's name as a String.
+     *
+     * @return String name
+     */
     public String getName() {
         return name;
     }
