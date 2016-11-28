@@ -1,5 +1,5 @@
 /**
- * Implements one highscore instance with name and score.
+ * Implements one highscore instance with player name and score.
  *
  * @author Vili Kinnunen
  * @version 2016.1128
@@ -11,7 +11,7 @@ public class Highscore {
 
     /**
      * Creates Highscore instance with name and score.
-     * @param name      Name of the person who got the score
+     * @param name      Name of the player who got the score
      * @param score     Score
      */
     public Highscore(String name, int score) {
