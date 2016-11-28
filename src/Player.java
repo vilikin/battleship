@@ -9,16 +9,6 @@
 public abstract class Player {
 
     /**
-     * Indicates player's position on the game board in regards to x-axel.
-     */
-    private int x;
-
-    /**
-     * Indicates player's position on the game board in regards to y-axel.
-     */
-    private int y;
-
-    /**
      * Initiates player object.
      */
     public Player() {
@@ -48,40 +38,4 @@ public abstract class Player {
      * @param newShip a ship to be added for player.
      */
     abstract void addShip(Ship newShip);
-
-    /**
-     * Returns player's x-axel position on the game board.
-     *
-     * @return int x
-     */
-    public int getX() {
-        return x;
-    }
-
-    /**
-     * Changes player's x-axel position.
-     *
-     * @param x int new position
-     */
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    /**
-     * Returns player's y-axel position on the game board.
-     *
-     * @return int y
-     */
-    public int getY() {
-        return y;
-    }
-
-    /**
-     * Changes player's y-axel position.
-     *
-     * @param y int new position
-     */
-    public void setY(int y) {
-        this.y = y;
-    }
 }
