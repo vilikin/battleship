@@ -5,5 +5,5 @@
  * @version 2016.1128
  * @since 1.7
  */
-public class EasyAI {
+public class EasyAI extends AI {
 }
