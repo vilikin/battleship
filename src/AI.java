@@ -6,4 +6,6 @@
  * @since 1.7
  */
 public abstract class AI {
+
+    abstract void play();
 }
