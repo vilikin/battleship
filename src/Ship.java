@@ -54,7 +54,10 @@ public class Ship {
      * @param size Size to set to ship.
      */
     public void setSize(int size) {
-        this.size = size;
+        // Only set larger than 0 values
+        if (size > 0) {
+            this.size = size;
+        }
     }
 
     /**
