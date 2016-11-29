@@ -11,4 +11,16 @@ public class GameboardField {
         this.height = height;
         field = new char[width][height];
     }
+
+    @Override
+    public String toString() {
+        String result = "";
+        for( int i = 0; i < height; i++){
+            for(int j = 0; j < width; j++) {
+                result += field[i][j];
+            }
+            result += "\n";
+        }
+        return result;
+    }
 }
