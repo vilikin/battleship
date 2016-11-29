@@ -22,6 +22,10 @@ public class Ship {
      */
     private Coordinate endCoordinate;
 
+    public Ship() {
+        setSize(1);
+    }
+
     /**
      * Retrieves the ship's size.
      *
