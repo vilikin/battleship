@@ -6,4 +6,8 @@
  * @since 1.7
  */
 public class EasyAI extends AI {
+
+    public void play() {
+        
+    }
 }
