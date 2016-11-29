@@ -29,6 +29,11 @@ public class Ship {
         setSize(1);
     }
 
+    /**
+     * Creates a ship with given size.
+     *
+     * @param size Size of the ship.
+     */
     public Ship(int size) {
         this();
         setSize(size);
