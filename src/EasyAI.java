@@ -7,7 +7,10 @@
  */
 public class EasyAI extends AI {
 
+    /**
+     * Handles Computer's turn.
+     */
     public void play() {
-        
+
     }
 }
