@@ -22,6 +22,9 @@ public class Ship {
      */
     private Coordinate endCoordinate;
 
+    /**
+     * Creates a ship with default size of 1.
+     */
     public Ship() {
         setSize(1);
     }
