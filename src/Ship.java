@@ -29,6 +29,11 @@ public class Ship {
         setSize(1);
     }
 
+    public Ship(int size) {
+        this();
+        setSize(size);
+    }
+
     /**
      * Retrieves the ship's size.
      *
