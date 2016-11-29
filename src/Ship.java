@@ -49,9 +49,9 @@ public class Ship {
     }
 
     /**
-     * Modifies ships size to given size.
+     * Modifies ships size if given size is larger than zero.
      *
-     * @param size Size to set to ship.
+     * @param size Size to set to ship (size > 0).
      */
     public void setSize(int size) {
         // Only set larger than 0 values
