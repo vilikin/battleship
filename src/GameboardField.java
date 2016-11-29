@@ -27,9 +27,18 @@ public class GameboardField {
     }
 
     public GameboardField(int width, int height) {
-        this.width = width;
-        this.height = height;
-        field = new char[width][height];
+        setWidth(width);
+        setHeight(height);
+        createNewEmptyField();
+    }
+
+    public void createNewEmptyField() {
+        field = new char[height][width];
+        for (int i= 0; i < height; i++) {
+            for (int j = 0; j < width ; j++) {
+                field[i][j] = ' ';
+            }
+        }
     }
 
     @Override
