@@ -8,6 +8,10 @@
  * @since 1.7
  */
 public class Coordinate {
+
+    /**
+     * Specifies objects position on the x-axel.
+     */
     private int x;
     private int y;
 }
