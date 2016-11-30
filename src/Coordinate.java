@@ -19,6 +19,11 @@ public class Coordinate {
      */
     private int y;
 
+    /**
+     * Returns coordinate x.
+     *
+     * @return int x
+     */
     public int getX() {
         return x;
     }
