@@ -46,6 +46,11 @@ public class Coordinate {
         return y;
     }
 
+    /**
+     * Sets new value for coordinate y.
+     *
+     * @param y int new coordinate y
+     */
     public void setY(int y) {
         this.y = y;
     }
