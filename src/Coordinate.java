@@ -19,6 +19,12 @@ public class Coordinate {
      */
     private int y;
 
+    /**
+     * Initiates coordinate with positions x and y.
+     *
+     * @param x int x-axel position
+     * @param y int y-axel position
+     */
     public Coordinate(int x, int y) {
         this.x = x;
         this.y = y;
