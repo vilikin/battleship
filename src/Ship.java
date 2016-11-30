@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Represents a battleship on the game board.
  *
