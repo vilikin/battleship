@@ -18,4 +18,8 @@ public class Coordinate {
      * Specifies objects position on the y-axel.
      */
     private int y;
+
+    public int getX() {
+        return x;
+    }
 }
