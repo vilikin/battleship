@@ -19,5 +19,13 @@ public abstract class AI {
      */
     protected int[] getRandomCoordinate() {
 
+        int width = 5;
+        int height = 5;
+
+        int[] coordinate = new int[2];
+        coordinate[0] = (int) (Math.random() * width);
+        coordinate[1] = (int) (Math.random() * height);
+
+        return coordinate;
     }
 }
