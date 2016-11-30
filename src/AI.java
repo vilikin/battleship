@@ -12,7 +12,12 @@ public abstract class AI {
      */
     abstract void play();
 
+    /**
+     * Returns random coordinate inside Gameboard.
+     *
+     * @return Coordinate inside Gameboard
+     */
     protected int[] getRandomCoordinate() {
-        
+
     }
 }
