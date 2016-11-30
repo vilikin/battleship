@@ -6,7 +6,7 @@
  * @since 1.7
  */
 public class EasyAI extends AI {
-
+    
     /**
      * Handles Computer's turn.
      */
