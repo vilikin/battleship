@@ -28,6 +28,11 @@ public class Coordinate {
         return x;
     }
 
+    /**
+     * Sets new value for coordinate x.
+     *
+     * @param x int new coordinate x.
+     */
     public void setX(int x) {
         this.x = x;
     }
