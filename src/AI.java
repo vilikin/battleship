@@ -11,4 +11,8 @@ public abstract class AI {
      * Handles Computer's turn.
      */
     abstract void play();
+
+    protected int[] getRandomCoordinate() {
+        
+    }
 }
