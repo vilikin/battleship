@@ -13,5 +13,9 @@ public class Coordinate {
      * Specifies objects position on the x-axel.
      */
     private int x;
+
+    /**
+     * Specifies objects position on the y-axel.
+     */
     private int y;
 }
