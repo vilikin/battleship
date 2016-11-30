@@ -8,5 +8,5 @@
  * @since 1.7
  */
 public class Coordinate {
-
+    private int x;
 }
