@@ -32,6 +32,11 @@ public class Coordinate {
         this.x = x;
     }
 
+    /**
+     * Returns coordinate y.
+     *
+     * @return int y
+     */
     public int getY() {
         return y;
     }
