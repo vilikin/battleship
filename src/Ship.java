@@ -103,7 +103,12 @@ public class Ship {
      * @return True if hit, false otherwise.
      */
     public boolean markHit(Coordinate shot) {
-        // TODO add implementation.
-        return false;
+
+        if (coordinates.containsKey(shot)) {
+            coordinates.put(shot, true);
+            return true;
+        } else {
+            return false;
+        }
     }
 }
