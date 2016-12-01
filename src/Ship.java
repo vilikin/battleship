@@ -90,4 +90,9 @@ public class Ship {
         // Get covered coordinates from coordinates
         return new ArrayList<>(coordinates.keySet());
     }
+
+    public boolean markHit(Coordinate shot) {
+        // TODO add implementation.
+        return false;
+    }
 }
