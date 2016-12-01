@@ -77,8 +77,8 @@ public class Ship {
      * @return True if the ship is alive, otherwise false.
      */
     public boolean isAlive() {
-        // TODO method implementation
-        return true;
+        // Parts of the ship not hit have false value in coordinates.
+        return coordinates.containsValue(false);
     }
 
     /**
