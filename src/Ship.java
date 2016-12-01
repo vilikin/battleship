@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.Map;
 
 /**
  * Represents a battleship on the game board.
@@ -8,6 +9,8 @@ import java.util.List;
  * @since 1.7
  */
 public class Ship {
+
+    private Map<Coordinate, Boolean> coordinates;
 
     /**
      * Holds how many grid cells the ship's size is.
