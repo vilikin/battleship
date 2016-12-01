@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -35,6 +36,7 @@ public class Ship {
      */
     public Ship() {
         setSize(1);
+        coordinates = new HashMap<>();
     }
 
     /**
