@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -86,7 +87,7 @@ public class Ship {
      * @return List of covered coordinates.
      */
     public List<Coordinate> getCoveredCoordinates() {
-        // TODO method implementation
-        return null;
+        // Get covered coordinates from coordinates
+        return new ArrayList<>(coordinates.keySet());
     }
 }
