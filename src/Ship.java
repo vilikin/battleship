@@ -10,6 +10,9 @@ import java.util.Map;
  */
 public class Ship {
 
+    /**
+     * Holds covered coordinates and their status.
+     */
     private Map<Coordinate, Boolean> coordinates;
 
     /**
