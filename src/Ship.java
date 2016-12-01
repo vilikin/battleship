@@ -91,6 +91,17 @@ public class Ship {
         return new ArrayList<>(coordinates.keySet());
     }
 
+    /**
+     * Marks a part of the ship as hit.
+     *
+     * If the given coordinate is within the ship,
+     * marks a hit for that part of the ship.
+     * Returns true if the coordinate actually hits the ship
+     * and false if the coordinate does not hit the ship.
+     *
+     * @param shot Coordinate of the shot to mark.
+     * @return True if hit, false otherwise.
+     */
     public boolean markHit(Coordinate shot) {
         // TODO add implementation.
         return false;
