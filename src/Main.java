@@ -12,7 +12,7 @@ public class Main {
     /**
      * Reads user input from console.
      */
-    Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
     /**
      * Acts as a starting point of the program.
@@ -21,5 +21,6 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.println("Number of players? (max 2)");
+        int players = scanner.nextInt();
     }
 }
