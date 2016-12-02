@@ -20,6 +20,6 @@ public class Main {
      * @param args not used
      */
     public static void main(String[] args) {
-
+        System.out.println("Number of players? (max 2)");
     }
 }
