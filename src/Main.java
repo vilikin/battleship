@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Runs the program.
  *
@@ -6,6 +8,12 @@
  * @since 1.7
  */
 public class Main {
+
+    /**
+     * Reads user input from console.
+     */
+    Scanner scanner = new Scanner(System.in);
+
     /**
      * Acts as a starting point of the program.
      *
