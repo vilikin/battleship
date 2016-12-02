@@ -5,7 +5,7 @@
  * @version 2016.1126
  * @since 1.7
  **/
-public class Computer implements PlayerInterface {
+public class Computer extends Player {
 
     /**
      * Default constructor for Computer.
