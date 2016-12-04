@@ -15,7 +15,7 @@ public abstract class AI {
     /**
      * Booleans that describe if coordinate has already been shot at.
      */
-    private boolean[][] shotCoordinates;
+    protected boolean[][] shotCoordinates;
 
     /**
      * Returns random coordinate inside Gameboard.
