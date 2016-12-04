@@ -12,6 +12,9 @@ public abstract class AI {
      */
     abstract void play();
 
+    /**
+     * Booleans that describe if coordinate has already been shot at.
+     */
     private boolean[][] shotCoordinates;
 
     /**
