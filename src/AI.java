@@ -12,6 +12,8 @@ public abstract class AI {
      */
     abstract void play();
 
+    private boolean[][] shotCoordinates;
+
     /**
      * Returns random coordinate inside Gameboard.
      *
