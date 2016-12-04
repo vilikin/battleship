@@ -18,7 +18,7 @@ public abstract class AI {
     protected boolean[][] shotCoordinates;
 
     /**
-     * Returns random coordinate inside Gameboard.
+     * Returns random coordinate inside Gameboard that has not been shot yet.
      *
      * @return Coordinate inside Gameboard
      */
