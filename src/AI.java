@@ -29,8 +29,10 @@ public abstract class AI {
         int x;
         int y;
 
-        x = (int) (Math.random() * width);
-        y = (int) (Math.random() * height);
+        do {
+            x = (int) (Math.random() * width);
+            y = (int) (Math.random() * height);
+        } while(shotCoordinates[x][y]);
 
         return new Coordinate(x, y);
     }
