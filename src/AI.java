@@ -17,7 +17,9 @@ public abstract class AI {
      */
     protected boolean[][] shotCoordinates;
 
-    
+    /**
+     * Default constructor for AI-objects.
+     */
     public AI() {
 
         shotCoordinates = new boolean[5][5];
