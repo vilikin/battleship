@@ -17,15 +17,16 @@ public abstract class AI {
      *
      * @return Coordinate inside Gameboard
      */
-    protected int[] getRandomCoordinate() {
+    protected Coordinate getRandomCoordinate() {
 
         int width = 5;
         int height = 5;
+        int x;
+        int y;
 
-        int[] coordinate = new int[2];
-        coordinate[0] = (int) (Math.random() * width);
-        coordinate[1] = (int) (Math.random() * height);
+        x = (int) (Math.random() * width);
+        y = (int) (Math.random() * height);
 
-        return coordinate;
+        return new Coordinate(x, y);
     }
 }
