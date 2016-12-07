@@ -6,11 +6,14 @@
  * @since 1.7
  */
 public class EasyAI extends AI {
+
+    private int state;
     
     /**
      * Handles Computer's turn.
      */
     public void play() {
+
 
     }
 }
