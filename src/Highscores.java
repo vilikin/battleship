@@ -12,6 +12,9 @@ import java.io.PrintWriter;
  */
 public class Highscores {
 
+    /**
+     * Highscore file.
+     */
     private static File file = new File("highscores.txt");
 
     /**
