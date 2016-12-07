@@ -17,6 +17,7 @@ public class EasyAI extends AI {
      */
     public EasyAI() {
 
+        state = 0;
     }
 
     /**
