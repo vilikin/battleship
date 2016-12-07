@@ -12,6 +12,10 @@ public class EasyAI extends AI {
      */
     private int state;
 
+    public EasyAI() {
+
+    }
+    
     /**
      * Handles Computer's turn.
      */
