@@ -1,3 +1,8 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
 /**
  * Implements methods to save and retrieve highscores.
  *
@@ -7,6 +12,8 @@
  */
 public class Highscores {
 
+    private static File file = new File("highscores.txt");
+
     /**
      * Saves highscore to a file.
      *
@@ -14,7 +21,15 @@ public class Highscores {
      * @return  If operation was successful or not
      */
     public static boolean save(Highscore highscore) {
-
+        try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(file)))) {
+            writer.append("<hs><player>" + highscore.getName() +
+                    "</player><score>" + highscore.getScore() +
+                    "</score></hs>\n");
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
     /**
