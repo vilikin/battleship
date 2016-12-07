@@ -7,8 +7,11 @@
  */
 public class EasyAI extends AI {
 
+    /**
+     * Tells if enemy ship has been found, and current searching pattern
+     */
     private int state;
-    
+
     /**
      * Handles Computer's turn.
      */
