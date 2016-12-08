@@ -25,6 +25,9 @@ public class Main {
      */
     Human player2;
 
+    /**
+     * Holds computer's information.
+     */
     Computer computer;
 
     /**
