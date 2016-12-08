@@ -31,4 +31,8 @@ public class EasyAI extends AI {
             shootEnemyShip();
         }
     }
+
+    private void shootEnemyShip() {
+        
+    }
 }
