@@ -5,9 +5,9 @@ public class Gameboard {
     /**
      * Constructs the class using default field size.
      */
-    public Gameboard(){
-        field1 = new GameboardField(10,10);
-        field2 = new GameboardField(10,10);
+    public Gameboard(Player p1, Player p2){
+        field1 = new GameboardField(10,10,p1);
+        field2 = new GameboardField(10,10,p2);
     }
 
     /**
@@ -16,11 +16,11 @@ public class Gameboard {
      * @param width width of the field.
      * @param height height of the field.
      */
-    public Gameboard(int width, int height){
-        field1 = new GameboardField(width, height);
-        field2 = new GameboardField(width, height);
+    public Gameboard(int width, int height,Player p1, Player p2){
+        field1 = new GameboardField(width, height,p1);
+        field2 = new GameboardField(width, height,p2);
     }
-    
+
     /**
      * Returns both fields drawn.
      *
