@@ -35,7 +35,8 @@ public class EasyAI extends AI {
     /**
      * Returns coordinate near found ship part.
      */
-    private void shootEnemyShip() {
+    private Coordinate shootEnemyShip() {
 
+        return null;
     }
 }
