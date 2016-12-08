@@ -25,12 +25,12 @@ public class GameboardField {
     /**
      * Sets fields width.
      *
-     * Width of the field must be 5-80
+     * Width of the field must be 5-50
      *
      * @param w Fields width.
      */
     public void setWidth(int w){
-        if(w > 5 && w <= 80){
+        if(w > 5 && w <= 50){
             width = w;
         }
     }
@@ -47,12 +47,12 @@ public class GameboardField {
     /**
      * Sets fields height.
      *
-     * Height of the field must be 5-80.
+     * Height of the field must be 5-50.
      *
      * @param h Fields height.
      */
     public void setHeight(int h){
-        if(h > 5 && h <= 80){
+        if(h > 5 && h <= 50){
             height = h;
         }
     }
@@ -74,7 +74,7 @@ public class GameboardField {
      * @param c character to place.
      */
     public void setChar(int x, int y, char c) {
-        if(x >= 0 && x <= 80 && y >= 0 && y <= 80) {
+        if(x >= 0 && x <= 50 && y >= 0 && y <= 50) {
             field[x][y] = c;
         }
     }
