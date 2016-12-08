@@ -20,6 +20,9 @@ public class Main {
      */
     Human player1;
 
+    /**
+     * Holds player2's information.
+     */
     Human player2;
 
     Computer computer;
