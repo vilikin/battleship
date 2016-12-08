@@ -27,6 +27,12 @@ public class Math {
         System.out.println(result);
     }
 
+    /**
+     * Takes two numbers and multiplies them.
+     *
+     * @param number1 integer value
+     * @param number2 integer value
+     */
     public void multiplication(int number1, int number2) {
 
     }
