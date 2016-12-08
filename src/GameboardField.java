@@ -37,6 +37,10 @@ public class GameboardField {
      */
     private Player player;
 
+    public void setPlayer(Player p){
+        player = p;
+    }
+
     /**
      * Sets fields width.
      *
