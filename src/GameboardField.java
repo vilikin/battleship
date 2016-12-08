@@ -32,6 +32,8 @@ public class GameboardField {
      */
     private char[][] field;
 
+    private Player player;
+
     /**
      * Sets fields width.
      *
