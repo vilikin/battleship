@@ -28,7 +28,7 @@ public class EasyAI extends AI {
         if (state == 0) {
             System.out.println(getRandomCoordinate());
         } else {
-            shootEnemyShip();
+            System.out.println(shootEnemyShip());
         }
     }
 
