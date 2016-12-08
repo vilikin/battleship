@@ -17,6 +17,8 @@ public class Main {
 
     Human player1;
 
+    Human player2;
+
     /**
      * Acts as a starting point of the program.
      *
