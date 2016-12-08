@@ -16,4 +16,7 @@ public class Math {
         System.out.println(result);
     }
 
+    public void minus(number1, number2) {
+        
+    }
 }
