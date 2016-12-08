@@ -21,6 +21,10 @@ public class Gameboard {
         field2 = new GameboardField(width, height);
     }
 
+    private String addBordersToField(GameboardField field) {
+        return "";
+    }
+
     /**
      * Returns both fields drawn.
      *
