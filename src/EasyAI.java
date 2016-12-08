@@ -28,14 +28,14 @@ public class EasyAI extends AI {
         if (state == 0) {
             System.out.println(getRandomCoordinate());
         } else {
-            System.out.println(shootEnemyShip());
+            System.out.println(findEnemyShip());
         }
     }
 
     /**
      * Returns coordinate near found ship part.
      */
-    private Coordinate shootEnemyShip() {
+    private Coordinate findEnemyShip() {
 
         return null;
     }
