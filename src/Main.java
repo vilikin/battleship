@@ -5,6 +5,7 @@ import java.util.Scanner;
  * Runs the program.
  *
  * @author Erika Sankari
+ * @author Toni Seppalainen
  * @version 2016.1124
  * @since 1.7
  */
@@ -36,6 +37,25 @@ public class Main {
      * @param args not used
      */
     public static void main(String[] args) {
+
+        String a = "";
+        a += "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+        a += "+                                                           +\n";
+        a += "+         #####   ###   #####  #####  #      #####          +\n";
+        a += "+         #  #   #   #    #      #    #      #              +\n";
+        a += "+         ###    #####    #      #    #      ###            +\n";
+        a += "+         #  #   #   #    #      #    #      #              +\n";
+        a += "+         #####  #   #    #      #    #####  #####          +\n";
+        a += "+                                                           +\n";
+        a += "+                  #####  #   #  ##  #####                  +\n";
+        a += "+                  #      #   #  ##  #   #                  +\n";
+        a += "+                  #####  #####  ##  #####                  +\n";
+        a += "+                      #  #   #  ##  #                      +\n";
+        a += "+                  #####  #   #  ##  #                      +\n";
+        a += "+                                                           +\n";
+        a += "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+        System.out.println(a);
+
         int players;
         try {
             do {
@@ -46,6 +66,4 @@ public class Main {
             e.printStackTrace();
         }
     }
-
-
 }
