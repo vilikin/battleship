@@ -66,6 +66,10 @@ public class GameboardField {
         return height;
     }
 
+    public void setChar(int x, int y) {
+
+    }
+    
     /**
      * Constructs the field object.
      *
