@@ -1,0 +1,24 @@
+- Computer or two players?
+- If computer, select easy AI or hard AI
+- If two players then ask names
+- Ask the size of the board
+- Ask how many ships
+- Select from ship types
+- Randomly place ships or place them on your own
+- Cli colors for ships
+- Players play in turns
+- If ship is hit that part turns red
+- If all ships are sunk player loses.
+- Congratulate the winner!
+- Show scores
+- Local storage for high scores
+- Multiplayer over net
+
+Classes:
+- Player Interface
+- AI
+- Computer
+- Human
+- Gameboard
+- Ship
+- Util (colors etc.)
