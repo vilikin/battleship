@@ -32,6 +32,9 @@ public class GameboardField {
      */
     private char[][] field;
 
+    /**
+     * Player that has this field.
+     */
     private Player player;
 
     /**
