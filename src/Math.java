@@ -11,7 +11,7 @@ public class Math {
      * @param number1 integer value
      * @param number2 integer value
      */
-    public void plus(number1, number2) {
+    public void plus(int number1, int number2) {
         int result = number1 + number2;
         System.out.println(result);
     }
