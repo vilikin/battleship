@@ -5,4 +5,7 @@
  */
 public class Math {
 
+    public void plus(number1, number2) {
+
+    }
 }
