@@ -23,8 +23,10 @@ public class Main {
     public static void main(String[] args) {
         int players;
         try {
-            System.out.println("Number of players? (max 2)");
-            players = scanner.nextInt();
+            do {
+                System.out.println("Number of players? (max 2)");
+                players = scanner.nextInt();
+            } while (players <= 0 || players > 2);
         } catch (InputMismatchException e) {
             e.printStackTrace();
         }
