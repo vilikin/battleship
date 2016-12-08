@@ -4,6 +4,9 @@ public class Gameboard {
 
     /**
      * Constructs the class using default field size.
+     *
+     * @param p1 Player for first field.
+     * @param p2 Player for second field.
      */
     public Gameboard(Player p1, Player p2){
         field1 = new GameboardField(10,10,p1);
@@ -15,6 +18,8 @@ public class Gameboard {
      *
      * @param width width of the field.
      * @param height height of the field.
+     * @param p1 Player for first field.
+     * @param p2 Player for second field.
      */
     public Gameboard(int width, int height,Player p1, Player p2){
         field1 = new GameboardField(width, height,p1);
