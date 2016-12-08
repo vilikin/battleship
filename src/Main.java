@@ -21,9 +21,10 @@ public class Main {
      * @param args not used
      */
     public static void main(String[] args) {
+        int players;
         System.out.println("Number of players? (max 2)");
         try {
-            int players = scanner.nextInt();
+            players = scanner.nextInt();
         } catch (InputMismatchException e) {
             e.printStackTrace();
         }
