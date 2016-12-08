@@ -25,7 +25,7 @@ public class Main {
         try {
             int players = scanner.nextInt();
         } catch (InputMismatchException e) {
-
+            e.printStackTrace();
         }
     }
 }
