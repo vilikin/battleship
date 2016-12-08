@@ -45,6 +45,7 @@ public class Math {
      * @param number2 divider
      */
     public void division(int number1, int number2) {
-
+        double result = (double) number1 / number2;
+        System.out.println(result);
     }
 }
