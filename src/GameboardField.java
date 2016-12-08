@@ -37,6 +37,11 @@ public class GameboardField {
      */
     private Player player;
 
+    /**
+     * Sets player.
+     *
+     * @param p player.
+     */
     public void setPlayer(Player p){
         player = p;
     }
