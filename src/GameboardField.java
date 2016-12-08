@@ -8,6 +8,16 @@
 public class GameboardField {
 
     /**
+     * Vertical coordinates.
+     */
+    private final String[] verticalCoordinates = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+
+    /**
+     * Horizontal coordinates.
+     */
+    private final String[] horizontalCoordinates = {"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"};
+
+    /**
      * Contains fields width.
      */
     private int width;
@@ -23,14 +33,28 @@ public class GameboardField {
     private char[][] field;
 
     /**
+     * Player that has this field.
+     */
+    private Player player;
+
+    /**
+     * Sets player.
+     *
+     * @param p player.
+     */
+    public void setPlayer(Player p){
+        player = p;
+    }
+
+    /**
      * Sets fields width.
      *
-     * Width of the field must be 5-80
+     * Width of the field must be 5-50
      *
      * @param w Fields width.
      */
     public void setWidth(int w){
-        if(w > 5 && w <= 80){
+        if(w > 5 && w <= 50){
             width = w;
         }
     }
@@ -47,12 +71,12 @@ public class GameboardField {
     /**
      * Sets fields height.
      *
-     * Height of the field must be 5-80.
+     * Height of the field must be 5-50.
      *
      * @param h Fields height.
      */
     public void setHeight(int h){
-        if(h > 5 && h <= 80){
+        if(h > 5 && h <= 50){
             height = h;
         }
     }
@@ -67,12 +91,27 @@ public class GameboardField {
     }
 
     /**
+     * Sets given character to given location in field.
+     *
+     * @param x x-coordinate.
+     * @param y y-coordinate.
+     * @param c character to place.
+     */
+    public void setChar(int x, int y, char c) {
+        if(x >= 0 && x <= 50 && y >= 0 && y <= 50) {
+            field[x][y] = c;
+        }
+    }
+
+    /**
      * Constructs the field object.
      *
      * @param width Width of the field.
      * @param height Height of the field.
+     * @param player Player that uses this field.
      */
-    public GameboardField(int width, int height) {
+    public GameboardField(int width, int height, Player player) {
+        setPlayer(player);
         setWidth(width);
         setHeight(height);
         createNewEmptyField();
@@ -100,9 +139,26 @@ public class GameboardField {
     @Override
     public String toString() {
         String result = "";
-        for( int i = 0; i < height; i++){
-            for(int j = 0; j < width; j++) {
-                result += field[i][j];
+        for( int i = -2; i < height; i++){
+            for(int j = -4; j < width; j++) {
+                if(i < 0 && j < 0){
+                    result += " ";
+                } else if(i == -2 && j >= 0){
+                    result += " " + verticalCoordinates[j] + " ";
+                } else if( j == -3 && i >= 0){
+                    result += horizontalCoordinates[i];
+                    if(horizontalCoordinates[i].length() == 1){
+                        result += " ";
+                    }
+                } else if( i == -1 && j >= 0){
+                    result += "___";
+                } else if( j == -1 && i >= 0) {
+                    result += "|";
+                } else if (i >= 0 && j >= 0) {
+                    result += " " + field[i][j] + " ";
+                } else {
+                    result += " ";
+                }
             }
             result += "\n";
         }
