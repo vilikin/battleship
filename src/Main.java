@@ -15,6 +15,8 @@ public class Main {
      */
     static Scanner scanner = new Scanner(System.in);
 
+    Human player1;
+
     /**
      * Acts as a starting point of the program.
      *
@@ -31,4 +33,6 @@ public class Main {
             e.printStackTrace();
         }
     }
+
+
 }
