@@ -1,4 +1,7 @@
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Represents a battleship on the game board.
@@ -8,6 +11,11 @@ import java.util.List;
  * @since 1.7
  */
 public class Ship {
+
+    /**
+     * Holds covered coordinates and their status.
+     */
+    private Map<Coordinate, Boolean> coordinates;
 
     /**
      * Holds how many grid cells the ship's size is.
@@ -29,6 +37,7 @@ public class Ship {
      */
     public Ship() {
         setSize(1);
+        coordinates = new HashMap<>();
     }
 
     /**
@@ -68,8 +77,8 @@ public class Ship {
      * @return True if the ship is alive, otherwise false.
      */
     public boolean isAlive() {
-        // TODO method implementation
-        return true;
+        // Parts of the ship not hit have false value in coordinates.
+        return coordinates.containsValue(false);
     }
 
     /**
@@ -78,7 +87,28 @@ public class Ship {
      * @return List of covered coordinates.
      */
     public List<Coordinate> getCoveredCoordinates() {
-        // TODO method implementation
-        return null;
+        // Get covered coordinates from coordinates
+        return new ArrayList<>(coordinates.keySet());
+    }
+
+    /**
+     * Marks a part of the ship as hit.
+     *
+     * If the given coordinate is within the ship,
+     * marks a hit for that part of the ship.
+     * Returns true if the coordinate actually hits the ship
+     * and false if the coordinate does not hit the ship.
+     *
+     * @param shot Coordinate of the shot to mark.
+     * @return True if hit, false otherwise.
+     */
+    public boolean markHit(Coordinate shot) {
+
+        if (coordinates.containsKey(shot)) {
+            coordinates.put(shot, true);
+            return true;
+        } else {
+            return false;
+        }
     }
 }
