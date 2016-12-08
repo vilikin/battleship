@@ -19,6 +19,8 @@ public class Main {
 
     Human player2;
 
+    Computer computer;
+
     /**
      * Acts as a starting point of the program.
      *
