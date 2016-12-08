@@ -25,6 +25,8 @@ public class EasyAI extends AI {
      */
     public void play() {
 
-
+        if (state == 0) {
+            System.out.println(getRandomCoordinate());
+        }
     }
 }
