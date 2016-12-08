@@ -15,6 +15,9 @@ public class Main {
      */
     static Scanner scanner = new Scanner(System.in);
 
+    /**
+     * Holds player1's information.
+     */
     Human player1;
 
     Human player2;
