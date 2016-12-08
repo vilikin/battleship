@@ -4,6 +4,7 @@ import java.util.Scanner;
  * Runs the program.
  *
  * @author Erika Sankari
+ * @author Toni Seppalainen
  * @version 2016.1124
  * @since 1.7
  */
