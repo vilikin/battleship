@@ -123,9 +123,26 @@ public class GameboardField {
     @Override
     public String toString() {
         String result = "";
-        for( int i = 0; i < height; i++){
-            for(int j = 0; j < width; j++) {
-                result += field[i][j];
+        for( int i = -2; i < height; i++){
+            for(int j = -4; j < width; j++) {
+                if(i < 0 && j < 0){
+                    result += " ";
+                } else if(i == -2 && j >= 0){
+                    result += " " + verticalCoordinates[j] + " ";
+                } else if( j == -3 && i >= 0){
+                    result += horizontalCoordinates[i];
+                    if(horizontalCoordinates[i].length() == 1){
+                        result += " ";
+                    }
+                } else if( i == -1 && j >= 0){
+                    result += "___";
+                } else if( j == -1 && i >= 0) {
+                    result += "|";
+                } else if (i >= 0 && j >= 0) {
+                    result += " " + field[i][j] + " ";
+                } else {
+                    result += " ";
+                }
             }
             result += "\n";
         }
