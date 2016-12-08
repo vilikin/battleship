@@ -16,7 +16,13 @@ public class Math {
         System.out.println(result);
     }
 
-    public void minus(number1, number2) {
+    /**
+     * Takes two numbers and substracts second number from first number.
+     *
+     * @param number1 number to subtract from
+     * @param number2 subtraction number
+     */
+    public void minus(int number1, int number2) {
         
     }
 }
