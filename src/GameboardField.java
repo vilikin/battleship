@@ -66,10 +66,12 @@ public class GameboardField {
         return height;
     }
 
-    public void setChar(int x, int y) {
-
+    public void setChar(int x, int y, char c) {
+        if(x >= 0 && x <= 80 && y >= 0 && y <= 80) {
+            field[x][y] = c;
+        }
     }
-    
+
     /**
      * Constructs the field object.
      *
