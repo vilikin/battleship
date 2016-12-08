@@ -37,4 +37,14 @@ public class Math {
         int result = number1 * number2;
         System.out.println(result);
     }
+
+    /**
+     * Takes two numbers and divides the first number by the second number.
+     *
+     * @param number1 dividend
+     * @param number2 divider
+     */
+    public void division(int number1, int number2) {
+
+    }
 }
