@@ -26,4 +26,8 @@ public class Math {
         int result = number1 - number2;
         System.out.println(result);
     }
+
+    public void multiplication(int number1, int number2) {
+
+    }
 }
