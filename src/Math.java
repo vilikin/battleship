@@ -1,6 +1,6 @@
 /**
  * The class Math contains basic mathods to perform basic numeric operations
- * suchs as plus, minus, multiplying and division.
+ * suchs as plus, minus, multiplication and division.
  *
  */
 public class Math {
