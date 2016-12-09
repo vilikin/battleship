@@ -66,5 +66,6 @@ public class Main {
             e.printStackTrace();
         }
 
+        player1 = new Human();
     }
 }
