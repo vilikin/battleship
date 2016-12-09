@@ -14,7 +14,7 @@ public class Main {
     /**
      * Reads user input from console.
      */
-    static Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
     /**
      * Holds player1's information.
@@ -65,7 +65,6 @@ public class Main {
         } catch (InputMismatchException e) {
             e.printStackTrace();
         }
-
 
     }
 }
