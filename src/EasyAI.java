@@ -49,14 +49,16 @@ public class EasyAI extends AI {
             random = (int) (Math.random() * 4);
         } while (closeCoords[random]);
 
+        Coordinate coordinate;
+
         if (random == 0) {
-
+            // Generate coordinate above
         } else if (random == 1) {
-
+            // Generate coordinate on the right side
         } else if (random == 2) {
-
-        } else if (random == 3) {
-
+            // Generate coordinate below
+        } else {
+            // Generate coordinate on the left side
         }
 
         return null;
