@@ -56,7 +56,7 @@ public class Main {
         a += "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
         System.out.println(a);
 
-        int players;
+        int players = 0;
         try {
             do {
                 System.out.println("Number of players? (max 2)");
@@ -65,5 +65,7 @@ public class Main {
         } catch (InputMismatchException e) {
             e.printStackTrace();
         }
+
+
     }
 }
