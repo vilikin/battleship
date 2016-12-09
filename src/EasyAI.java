@@ -12,6 +12,9 @@ public class EasyAI extends AI {
      */
     private int state;
 
+    /**
+     * Containing booleans to tell if nearby Coordinates has been shot at.
+     */
     private boolean[] closeCoords;
 
     /**
