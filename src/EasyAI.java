@@ -12,6 +12,8 @@ public class EasyAI extends AI {
      */
     private int state;
 
+    private boolean[] closeCoords;
+
     /**
      * Default constructor for EasyAI.
      */
