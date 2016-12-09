@@ -43,7 +43,11 @@ public class EasyAI extends AI {
      */
     private Coordinate findEnemyShip() {
 
-        int random = (int) (Math.random() * 4);
+        int random = 0;
+
+        do {
+            random = (int) (Math.random() * 4);
+        } while (closeCoords[random]);
 
         if (random == 0) {
 
@@ -52,7 +56,7 @@ public class EasyAI extends AI {
         } else if (random == 2) {
 
         } else if (random == 3) {
-            
+
         }
 
         return null;
