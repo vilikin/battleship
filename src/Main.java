@@ -29,7 +29,7 @@ public class Main {
     /**
      * Holds computer's information.
      */
-    Computer computer;
+    private static Computer computer;
 
     /**
      * Acts as a starting point of the program.
