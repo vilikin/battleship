@@ -67,5 +67,8 @@ public class Main {
         }
 
         player1 = new Human();
+        if (players == 1) {
+            computer = new Computer();
+        }
     }
 }
