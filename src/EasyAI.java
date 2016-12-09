@@ -33,6 +33,7 @@ public class EasyAI extends AI {
         if (state == 0) {
             System.out.println(getRandomCoordinate());
         } else {
+            // Enemy ship found last turn, try find more
             System.out.println(findEnemyShip());
         }
     }
