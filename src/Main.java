@@ -19,7 +19,7 @@ public class Main {
     /**
      * Holds player1's information.
      */
-    Human player1;
+    private static Human player1;
 
     /**
      * Holds player2's information.
