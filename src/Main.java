@@ -31,6 +31,8 @@ public class Main {
      */
     private static Computer computer;
 
+    private static Gameboard gameboard;
+
     /**
      * Acts as a starting point of the program.
      *
@@ -72,5 +74,6 @@ public class Main {
         } else {
             player2 = new Human();
         }
+
     }
 }
