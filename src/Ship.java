@@ -179,6 +179,7 @@ public class Ship {
                     int x = end.getX();
                     int y = end.getY();
                     endCoordinate = new Coordinate(x, y);
+                    fillCoordinates();
                 }
             }
         }
