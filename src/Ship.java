@@ -116,4 +116,8 @@ public class Ship {
             return false;
         }
     }
+
+    public boolean isReady() {
+        return isReady;
+    }
 }
