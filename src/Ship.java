@@ -12,6 +12,8 @@ import java.util.Map;
  */
 public class Ship {
 
+    private boolean isReady;
+
     /**
      * Holds covered coordinates and their status.
      */
