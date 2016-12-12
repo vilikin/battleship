@@ -15,7 +15,7 @@ public class EasyAI extends AI {
     /**
      * Containing booleans to tell if nearby Coordinates has been shot at.
      */
-    private boolean[] closeCoords;
+    private boolean[] directions;
 
     /**
      * Default constructor for EasyAI.
