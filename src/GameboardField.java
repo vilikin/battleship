@@ -38,6 +38,11 @@ public class GameboardField {
     private Human player;
 
     /**
+     *
+     */
+    private Computer computer;
+
+    /**
      * Sets player.
      *
      * @param p Human.
