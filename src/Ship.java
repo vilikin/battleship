@@ -158,9 +158,11 @@ public class Ship {
     /**
      * Fills the coordinates of this ship by selecting an end coordinate.
      *
-     * Validates the given end coordinate and sets it if it is valid.
+     * Validates the given end coordinate and sets is if it is valid.
      * If the given end coordinate is not valid it is not set and the method
      * returns false.
+     * This method expects the startCoordinate to be set, if not
+     * the method returns false.
      *
      * @param end The chosen end coordinate.
      * @return True if end coordinate was valid, otherwise false.
