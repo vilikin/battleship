@@ -108,9 +108,9 @@ public class GameboardField {
      *
      * @param width Width of the field.
      * @param height Height of the field.
-     * @param player Player that uses this field.
+     * @param player Human that uses this field.
      */
-    public GameboardField(int width, int height, Player player) {
+    public GameboardField(int width, int height, Human player) {
         setPlayer(player);
         setWidth(width);
         setHeight(height);
