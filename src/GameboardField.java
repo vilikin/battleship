@@ -38,7 +38,7 @@ public class GameboardField {
     private Human player;
 
     /**
-     *
+     * Computer player that has this field.
      */
     private Computer computer;
 
