@@ -202,4 +202,8 @@ public class Ship {
     public Coordinate getStartCoordinate() {
         return startCoordinate;
     }
+
+    private void fillCoordinates() {
+        //TODO Implement filling coordinates using start and end
+    }
 }
