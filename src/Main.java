@@ -31,6 +31,9 @@ public class Main {
      */
     private static Computer computer;
 
+    /**
+     * Holds information about the gameboard.
+     */
     private static Gameboard gameboard;
 
     /**
