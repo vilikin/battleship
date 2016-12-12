@@ -35,7 +35,7 @@ public class GameboardField {
     /**
      * Player that has this field.
      */
-    private Player player;
+    private Human player;
 
     /**
      * Sets player.
