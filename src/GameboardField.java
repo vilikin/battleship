@@ -51,6 +51,11 @@ public class GameboardField {
         player = p;
     }
 
+    /**
+     * Sets computer.
+     *
+     * @param computer Computer.
+     */
     public void setComputer(Computer computer) {
         this.computer = computer;
     }
