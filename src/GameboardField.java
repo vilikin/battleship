@@ -40,9 +40,9 @@ public class GameboardField {
     /**
      * Sets player.
      *
-     * @param p player.
+     * @param p Human.
      */
-    public void setPlayer(Player p){
+    public void setPlayer(Human p) {
         player = p;
     }
 
