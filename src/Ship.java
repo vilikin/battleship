@@ -132,4 +132,9 @@ public class Ship {
     private void checkReady() {
         //TODO check if ready and set isReady
     }
+
+    public List<Coordinate> calculateEndCoordinates(Coordinate start) {
+        //TODO return all possible end coordinates
+        return null;
+    }
 }
