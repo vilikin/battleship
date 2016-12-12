@@ -131,6 +131,13 @@ public class GameboardField {
         createNewEmptyField();
     }
 
+    public GameboardField(int width, int height, Computer computer) {
+        setComputer(computer);
+        setWidth(width);
+        setHeight(height);
+        createNewEmptyField();
+    }
+
     /**
      * Creates new empty field.
      *
