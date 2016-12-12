@@ -74,6 +74,7 @@ public class Main {
         player1 = new Human();
         if (players == 1) {
             computer = new Computer();
+            gameboard = new Gameboard(player1, computer);
         } else {
             player2 = new Human();
             gameboard = new Gameboard(player1, player2);
