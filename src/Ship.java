@@ -170,6 +170,11 @@ public class Ship {
         return false;
     }
 
+    /**
+     * Sets the ships start coordinate.
+     *
+     * @param startCoordinate The start coordinate to set.
+     */
     public void setStartCoordinate(Coordinate startCoordinate) {
         this.startCoordinate = startCoordinate;
     }
