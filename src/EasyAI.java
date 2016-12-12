@@ -43,7 +43,7 @@ public class EasyAI extends AI {
      */
     private Coordinate findEnemyShip() {
 
-        int random = 0;
+        int randomDir = 0;
 
         do {
             random = (int) (Math.random() * 4);
