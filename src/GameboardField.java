@@ -35,29 +35,15 @@ public class GameboardField {
     /**
      * Player that has this field.
      */
-    private Human player;
-
-    /**
-     * Computer player that has this field.
-     */
-    private Computer computer;
+    private Player player;
 
     /**
      * Sets player.
      *
-     * @param p Human.
+     * @param p Player.
      */
-    public void setPlayer(Human p) {
+    public void setPlayer(Player p) {
         player = p;
-    }
-
-    /**
-     * Sets computer.
-     *
-     * @param computer Computer.
-     */
-    public void setComputer(Computer computer) {
-        this.computer = computer;
     }
 
     /**
@@ -122,24 +108,10 @@ public class GameboardField {
      *
      * @param width Width of the field.
      * @param height Height of the field.
-     * @param player Human that uses this field.
+     * @param player Player that uses this field.
      */
-    public GameboardField(int width, int height, Human player) {
+    public GameboardField(int width, int height, Player player) {
         setPlayer(player);
-        setWidth(width);
-        setHeight(height);
-        createNewEmptyField();
-    }
-
-    /**
-     * Constructs the field objects with a computer player.
-     *
-     * @param width    int width of the field.
-     * @param height   int height of the field.
-     * @param computer Computer that uses this field.
-     */
-    public GameboardField(int width, int height, Computer computer) {
-        setComputer(computer);
         setWidth(width);
         setHeight(height);
         createNewEmptyField();

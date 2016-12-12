@@ -5,23 +5,12 @@ public class Gameboard {
     /**
      * Constructs the class using default field size.
      *
-     * @param p1 Human for first field.
-     * @param p2 Human for second field.
+     * @param p1 Player for first field.
+     * @param p2 Player for second field.
      */
-    public Gameboard(Human p1, Human p2) {
+    public Gameboard(Player p1, Player p2) {
         field1 = new GameboardField(10,10,p1);
         field2 = new GameboardField(10,10,p2);
-    }
-
-    /**
-     * Constructs the class using default field size.
-     *
-     * @param p1 Human for first field.
-     * @param p2 Computer for second field.
-     */
-    public Gameboard(Human p1, Computer p2) {
-        field1 = new GameboardField(10, 10, p1);
-        field2 = new GameboardField(10, 10, p2);
     }
 
     /**
@@ -32,7 +21,7 @@ public class Gameboard {
      * @param p1 Human for first field.
      * @param p2 Human for second field.
      */
-    public Gameboard(int width, int height, Human p1, Human p2) {
+    public Gameboard(int width, int height, Player p1, Player p2) {
         field1 = new GameboardField(width, height,p1);
         field2 = new GameboardField(width, height,p2);
     }
