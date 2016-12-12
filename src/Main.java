@@ -14,22 +14,27 @@ public class Main {
     /**
      * Reads user input from console.
      */
-    static Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
     /**
      * Holds player1's information.
      */
-    Human player1;
+    private static Human player1;
 
     /**
      * Holds player2's information.
      */
-    Human player2;
+    private static Human player2;
 
     /**
      * Holds computer's information.
      */
-    Computer computer;
+    private static Computer computer;
+
+    /**
+     * Holds information about the gameboard.
+     */
+    private static Gameboard gameboard;
 
     /**
      * Acts as a starting point of the program.
@@ -56,7 +61,7 @@ public class Main {
         a += "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
         System.out.println(a);
 
-        int players;
+        int players = 0;
         try {
             do {
                 System.out.println("Number of players? (max 2)");
@@ -65,5 +70,16 @@ public class Main {
         } catch (InputMismatchException e) {
             e.printStackTrace();
         }
+
+        player1 = new Human();
+        if (players == 1) {
+            computer = new Computer();
+            gameboard = new Gameboard(player1, computer);
+        } else {
+            player2 = new Human();
+            gameboard = new Gameboard(player1, player2);
+        }
+
+        System.out.println(gameboard);
     }
 }
