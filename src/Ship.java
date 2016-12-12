@@ -154,4 +154,9 @@ public class Ship {
 
         return list;
     }
+
+    public boolean selectEndCoordinate(Coordinate end) {
+        //TODO implement
+        return false;
+    }
 }
