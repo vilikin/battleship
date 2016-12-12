@@ -51,6 +51,10 @@ public class GameboardField {
         player = p;
     }
 
+    public void setComputer(Computer computer) {
+        this.computer = computer;
+    }
+
     /**
      * Sets fields width.
      *
