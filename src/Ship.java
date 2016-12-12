@@ -140,7 +140,18 @@ public class Ship {
      * @return List of possible end coordinates.
      */
     public List<Coordinate> calculateEndCoordinates(Coordinate start) {
-        //TODO return all possible end coordinates
-        return null;
+        List<Coordinate> list = new ArrayList<>();
+
+        // calculate four possible end points
+        int x = start.getX();
+        int y = start.getY();
+        int s = size - 1;
+
+        list.add(new Coordinate(x + s, y));
+        list.add(new Coordinate(x - s, y));
+        list.add(new Coordinate(x, y + s));
+        list.add(new Coordinate(x, y - s));
+
+        return list;
     }
 }
