@@ -12,6 +12,9 @@ import java.util.Map;
  */
 public class Ship {
 
+    /**
+     * Tells if the ship is fully initialized.
+     */
     private boolean isReady;
 
     /**
