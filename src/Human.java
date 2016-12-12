@@ -14,6 +14,12 @@ public class Human extends Player {
 
     }
 
+    /**
+     * Returns true if given coordinate contacts a ship.
+     *
+     * @param coord a coordination to be shot at.
+     * @return true if a ship locates in the given coordinate.
+     */
     @Override
     boolean shoot(Coordinate coord) {
         return false;
