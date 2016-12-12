@@ -47,7 +47,7 @@ public class EasyAI extends AI {
 
         do {
             random = (int) (Math.random() * 4);
-        } while (closeCoords[random]);
+        } while (directions[random]);
 
         Coordinate coordinate = null;
 
