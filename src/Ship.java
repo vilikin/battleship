@@ -208,6 +208,42 @@ public class Ship {
      * Calculates this ships covered coordinates to field coordinates.
      */
     private void fillCoordinates() {
-        //TODO Implement filling coordinates using start and end
+
+        if (startCoordinate != null && endCoordinate != null) {
+            coordinates.clear();
+
+            // determine direction
+            int xDir = 0;
+            int yDir = 0;
+
+            if (startCoordinate.getX() > endCoordinate.getX()) {
+                xDir = 1;
+            } else if (startCoordinate.getX() < endCoordinate.getX()){
+                xDir = -1;
+            }
+
+            if (startCoordinate.getY() > endCoordinate.getY()) {
+                yDir = 1;
+            } else if (startCoordinate.getY() < endCoordinate.getY()){
+                yDir = -1;
+            }
+
+            // Current is startCoordinate at first
+            Coordinate current;
+            current = new Coordinate(
+                    startCoordinate.getX(),
+                    startCoordinate.getY());
+
+            // fill coordinates
+            for (int i = 0; i < size ; i++) {
+                // First Add current coordinate
+                coordinates.put(current, false);
+
+                // Then Set the current to next, won't be added if done
+                int newX = current.getX() + xDir;
+                int newY = current.getY() + yDir;
+                current = new Coordinate(newX, newY);
+            }
+        }
     }
 }
