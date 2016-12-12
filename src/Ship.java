@@ -203,6 +203,9 @@ public class Ship {
         return startCoordinate;
     }
 
+    /**
+     * Calculates this ships covered coordinates to field coordinates.
+     */
     private void fillCoordinates() {
         //TODO Implement filling coordinates using start and end
     }
