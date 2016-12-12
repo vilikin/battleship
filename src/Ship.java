@@ -166,8 +166,21 @@ public class Ship {
      * @return True if end coordinate was valid, otherwise false.
      */
     public boolean selectEndCoordinate(Coordinate end) {
-        //TODO implement
-        return false;
+        boolean valid = false;
+        if (startCoordinate != null) {
+            List<Coordinate> ends;
+            ends = calculateEndCoordinates(startCoordinate);
+            for (Coordinate e : ends) {
+                if (e.getX() == end.getX()
+                        && e.getY() == end.getY()) {
+                    valid = true;
+                    int x = end.getX();
+                    int y = end.getY();
+                    endCoordinate = new Coordinate(x, y);
+                }
+            }
+        }
+        return valid;
     }
 
     /**
