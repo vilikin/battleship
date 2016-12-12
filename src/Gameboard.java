@@ -13,6 +13,11 @@ public class Gameboard {
         field2 = new GameboardField(10,10,p2);
     }
 
+    public Gameboard(Human p1, Computer p2) {
+        field1 = new GameboardField(10, 10, p1);
+        field2 = new GameboardField(10, 10, p2);
+    }
+
     /**
      * Constructs the class using custom field size.
      *
