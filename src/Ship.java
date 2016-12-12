@@ -125,4 +125,8 @@ public class Ship {
     public boolean isReady() {
         return isReady;
     }
+
+    private void checkReady() {
+        //TODO check if ready and set isReady
+    }
 }
