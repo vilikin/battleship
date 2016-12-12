@@ -117,6 +117,11 @@ public class Ship {
         }
     }
 
+    /**
+     * Returns the ready status of the ship.
+     *
+     * @return True if the ship is ready, otherwise false.
+     */
     public boolean isReady() {
         return isReady;
     }
