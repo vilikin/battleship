@@ -155,6 +155,16 @@ public class Ship {
         return list;
     }
 
+    /**
+     * Fills the coordinates of this ship by selecting an end coordinate.
+     *
+     * Validates the given end coordinate and sets it if it is valid.
+     * If the given end coordinate is not valid it is not set and the method
+     * returns false.
+     *
+     * @param end The chosen end coordinate.
+     * @return True if end coordinate was valid, otherwise false.
+     */
     public boolean selectEndCoordinate(Coordinate end) {
         //TODO implement
         return false;
