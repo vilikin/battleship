@@ -25,6 +25,13 @@ public class Human extends Player {
         return false;
     }
 
+    /**
+     * Places a ship for the given coordinate.
+     *
+     * @param ship  the ship to be placed on the gameboard.
+     * @param coord a coordination where ship is placed.
+     * @return true if a ship was succesfully placed at the coordinate.
+     */
     @Override
     boolean placeShip(Ship ship, Coordinate coord) {
         return false;
