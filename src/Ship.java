@@ -173,4 +173,8 @@ public class Ship {
     public void setStartCoordinate(Coordinate startCoordinate) {
         this.startCoordinate = startCoordinate;
     }
+
+    public Coordinate getStartCoordinate() {
+        return startCoordinate;
+    }
 }
