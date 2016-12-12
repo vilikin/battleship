@@ -131,6 +131,13 @@ public class GameboardField {
         createNewEmptyField();
     }
 
+    /**
+     * Constructs the field objects with a computer player.
+     *
+     * @param width    int width of the field.
+     * @param height   int height of the field.
+     * @param computer Computer that uses this field.
+     */
     public GameboardField(int width, int height, Computer computer) {
         setComputer(computer);
         setWidth(width);
