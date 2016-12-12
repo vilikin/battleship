@@ -133,6 +133,12 @@ public class Ship {
         //TODO check if ready and set isReady
     }
 
+    /**
+     * Returns all possible end coordinates with the given start coordinate.
+     *
+     * @param start The coordinate to start from.
+     * @return List of possible end coordinates.
+     */
     public List<Coordinate> calculateEndCoordinates(Coordinate start) {
         //TODO return all possible end coordinates
         return null;
