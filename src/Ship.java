@@ -169,4 +169,8 @@ public class Ship {
         //TODO implement
         return false;
     }
+
+    public void setStartCoordinate(Coordinate startCoordinate) {
+        this.startCoordinate = startCoordinate;
+    }
 }
