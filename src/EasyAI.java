@@ -51,7 +51,7 @@ public class EasyAI extends AI {
 
         Coordinate coordinate = null;
 
-        if (random == 0) {
+        if (randomDir == 0) {
             // Generate coordinate above
         } else if (random == 1) {
             // Generate coordinate on the right side
