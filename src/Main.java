@@ -80,5 +80,6 @@ public class Main {
             gameboard = new Gameboard(player1, player2);
         }
 
+        System.out.println(gameboard);
     }
 }
