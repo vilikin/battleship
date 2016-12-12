@@ -126,6 +126,9 @@ public class Ship {
         return isReady;
     }
 
+    /**
+     * Checks if the ship is ready and sets isReady accordingly.
+     */
     private void checkReady() {
         //TODO check if ready and set isReady
     }
