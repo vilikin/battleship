@@ -179,6 +179,11 @@ public class Ship {
         this.startCoordinate = startCoordinate;
     }
 
+    /**
+     * Returns the ships start coordinate.
+     *
+     * @return The ships start coordinate.
+     */
     public Coordinate getStartCoordinate() {
         return startCoordinate;
     }
