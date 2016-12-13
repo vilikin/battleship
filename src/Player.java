@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -23,7 +24,9 @@ public abstract class Player {
     /**
      * Initiates player object.
      */
-    public Player() {}
+    public Player() {
+        ships = new ArrayList<>();
+    }
 
     /**
      * Initiates player object with a name.
