@@ -59,7 +59,7 @@ public abstract class Player {
      *
      * @param newShip a ship to be added for player.
      */
-    void addShip(Ship newShip) {
+    public void addShip(Ship newShip) {
         ships.add(newShip);
     }
 
@@ -68,7 +68,7 @@ public abstract class Player {
      *
      * @param ship Ship to remove
      */
-    void removeShip(Ship ship) {
+    public void removeShip(Ship ship) {
         ships.remove(ship);
     }
 
