@@ -130,7 +130,11 @@ public class Ship {
      * Checks if the ship is ready and sets isReady accordingly.
      */
     private void checkReady() {
-        //TODO check if ready and set isReady
+
+        isReady = startCoordinate != null &&
+                endCoordinate != null &&
+                coordinates.size() == size;
+
     }
 
     /**
