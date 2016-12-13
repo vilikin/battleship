@@ -63,6 +63,11 @@ public abstract class Player {
         ships.add(newShip);
     }
 
+    /**
+     * Removes a ship from this players list of ships
+     *
+     * @param ship Ship to remove
+     */
     void removeShip(Ship ship) {
         //TODO implement removing ship
     }
