@@ -191,7 +191,7 @@ public class Ship {
     }
 
     /**
-     * Sets the ships start coordinate.
+     * Sets the ships start coordinate and removes the end coordinate.
      *
      * @param startCoordinate The start coordinate to set.
      */
