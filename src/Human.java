@@ -37,13 +37,4 @@ public class Human extends Player {
         return false;
     }
 
-    /**
-     * Adds a ship for the player.
-     *
-     * @param newShip a ship to be added for player.
-     */
-    @Override
-    void addShip(Ship newShip) {
-        ships.add(newShip);
-    }
 }
