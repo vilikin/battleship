@@ -10,6 +10,9 @@ import java.util.List;
  */ 
 public abstract class Player {
 
+    /**
+     * Contains the ships owned by this player.
+     */
     private List<Ship> ships;
 
     /**
