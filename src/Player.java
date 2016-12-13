@@ -79,6 +79,11 @@ public abstract class Player {
         this.name = name;
     }
 
+    /**
+     * Returns the ships owned by this player.
+     *
+     * @return List of ships owned by this player.
+     */
     public List<Ship> getShips() {
       return null;
     }
