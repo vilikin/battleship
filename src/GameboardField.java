@@ -132,7 +132,7 @@ public class GameboardField {
     }
 
     public void placeShips(){
-        
+        //TODO get ships from player
     }
 
     /**
