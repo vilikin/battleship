@@ -63,10 +63,12 @@ public abstract class Player {
         ships.add(newShip);
     }
 
+
     /**
      * Removes a ship from this players list of ships
      *
-     * @param ship Ship to remove
+     * @param ship Ship to remove.
+     * @return True if ship was removed, false otherwise.
      */
     public boolean removeShip(Ship ship) {
         return ships.remove(ship);
