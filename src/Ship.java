@@ -197,6 +197,7 @@ public class Ship {
      */
     public void setStartCoordinate(Coordinate startCoordinate) {
         this.startCoordinate = startCoordinate;
+        this.endCoordinate = null;
     }
 
     /**
