@@ -44,6 +44,6 @@ public class Human extends Player {
      */
     @Override
     void addShip(Ship newShip) {
-
+        ships.add(newShip);
     }
 }
