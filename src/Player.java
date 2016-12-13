@@ -69,7 +69,7 @@ public abstract class Player {
      * @param ship Ship to remove
      */
     void removeShip(Ship ship) {
-        //TODO implement removing ship
+        ships.remove(ship);
     }
 
     /**
