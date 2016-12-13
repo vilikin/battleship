@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Player includes simple methods for player and computer.
  *
@@ -7,6 +9,8 @@
  * @since 1.7
  */ 
 public abstract class Player {
+
+    private List<Ship> ships;
 
     /**
      * Holds player's name.
