@@ -43,6 +43,6 @@ public class Computer extends Player {
      * @param newShip Ship to be added
      */
     public void addShip(Ship newShip) {
-
+        ships.add(newShip);
     }
 }
