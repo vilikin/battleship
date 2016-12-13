@@ -68,8 +68,8 @@ public abstract class Player {
      *
      * @param ship Ship to remove
      */
-    public void removeShip(Ship ship) {
-        ships.remove(ship);
+    public boolean removeShip(Ship ship) {
+        return ships.remove(ship);
     }
 
     /**
