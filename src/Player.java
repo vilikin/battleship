@@ -59,7 +59,9 @@ public abstract class Player {
      *
      * @param newShip a ship to be added for player.
      */
-    abstract void addShip(Ship newShip);
+    void addShip(Ship newShip) {
+        ships.add(newShip);
+    }
 
     /**
      * Returns player's name as a String.
