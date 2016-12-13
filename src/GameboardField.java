@@ -131,6 +131,9 @@ public class GameboardField {
         }
     }
 
+    /**
+     * Places players ships on the field.
+     */
     public void placeShips(){
         //TODO get ships from player
     }
