@@ -13,7 +13,7 @@ public abstract class Player {
     /**
      * Contains the ships owned by this player.
      */
-    private List<Ship> ships;
+    protected List<Ship> ships;
 
     /**
      * Holds player's name.
