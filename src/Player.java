@@ -85,6 +85,6 @@ public abstract class Player {
      * @return List of ships owned by this player.
      */
     public List<Ship> getShips() {
-      return null;
+      return ships;
     }
 }
