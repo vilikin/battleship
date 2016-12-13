@@ -63,6 +63,10 @@ public abstract class Player {
         ships.add(newShip);
     }
 
+    void removeShip(Ship ship) {
+        //TODO implement removing ship
+    }
+
     /**
      * Returns player's name as a String.
      *
