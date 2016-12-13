@@ -131,6 +131,10 @@ public class GameboardField {
         }
     }
 
+    public void placeShips(){
+        
+    }
+
     /**
      * Prints the field.
      *
