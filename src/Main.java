@@ -105,7 +105,7 @@ public class Main {
      *
      * @param player The player to create ships for.
      */
-    private void randomSetupShips(Player player) {
+    private static void randomSetupShips(Player player) {
 
     }
 
