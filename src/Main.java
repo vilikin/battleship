@@ -93,7 +93,7 @@ public class Main {
      *
      * @param player The player to add ships for.
      */
-    private void setupShips(Player player) {
+    private static void setupShips(Player player) {
 
     }
 
