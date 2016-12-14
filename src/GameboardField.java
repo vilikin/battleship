@@ -142,6 +142,8 @@ public class GameboardField {
     /**
      * Prints the field.
      *
+     * Draws coordinates around the field.
+     *
      * @return How the field currently looks like.
      */
     @Override
