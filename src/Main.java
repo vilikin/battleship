@@ -82,4 +82,10 @@ public class Main {
 
         System.out.println(gameboard);
     }
+
+    private void setupShips(Player player) {
+
+    }
 }
+
+
