@@ -10,7 +10,7 @@ public class GameboardField {
     /**
      * Vertical coordinates.
      */
-    private final String[] verticalCoordinates = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y"};
+    private final String[] verticalCoordinates = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X"};
 
     /**
      * Horizontal coordinates.
