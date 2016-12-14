@@ -120,7 +120,7 @@ public class Main {
      * @param player The player to place a ship for.
      * @return True if a ship was placed, otherwise false.
      */
-    private boolean placeShip(Player player) {
+    private static boolean placeShip(Player player) {
         return false;
     }
 }
