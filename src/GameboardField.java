@@ -82,7 +82,7 @@ public class GameboardField {
     }
 
     /**
-     * Gets fields height.
+     * Returns field height.
      *
      * @return Height of the field.
      */
