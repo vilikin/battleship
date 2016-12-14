@@ -47,7 +47,7 @@ public class GameboardField {
     }
 
     /**
-     * Sets fields width.
+     * Sets field width.
      *
      * Width of the field must be 5-50
      *
