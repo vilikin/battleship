@@ -109,6 +109,17 @@ public class Main {
 
     }
 
+    /**
+     * Places a ship for a player.
+     *
+     * Gets input from the player for adding a single ship
+     * and validates if ship can be placed in given coordinates.
+     * This is repeated until the player gives a valid places
+     * a ship in valid coordinates or placing the ship was canceled.
+     *
+     * @param player The player to place a ship for.
+     * @return True if a ship was placed, otherwise false.
+     */
     private boolean placeShip(Player player) {
         return false;
     }
