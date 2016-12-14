@@ -75,9 +75,13 @@ public class Main {
         if (players == 1) {
             computer = new Computer();
             gameboard = new Gameboard(player1, computer);
+            randomSetupShips(computer);
+            setupShips(player1);
         } else {
             player2 = new Human();
             gameboard = new Gameboard(player1, player2);
+            setupShips(player1);
+            setupShips(player2);
         }
 
         System.out.println(gameboard);
