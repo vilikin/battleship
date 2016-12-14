@@ -69,7 +69,7 @@ public class GameboardField {
     }
 
     /**
-     * Sets fields height.
+     * Sets field height.
      *
      * Height of the field must be 5-50.
      *
