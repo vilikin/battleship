@@ -108,6 +108,10 @@ public class Main {
     private void randomSetupShips(Player player) {
 
     }
+
+    private boolean placeShip(Player player) {
+        return false;
+    }
 }
 
 
