@@ -60,7 +60,7 @@ public class GameboardField {
     }
 
     /**
-     * Gets fields width.
+     * Returns field width.
      *
      * @return Width of the field.
      */
