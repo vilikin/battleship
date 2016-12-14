@@ -96,6 +96,10 @@ public class Main {
     private void setupShips(Player player) {
 
     }
+
+    private void randomSetupShips(Player player) {
+
+    }
 }
 
 
