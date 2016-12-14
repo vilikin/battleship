@@ -83,6 +83,16 @@ public class Main {
         System.out.println(gameboard);
     }
 
+    /**
+     * Creates ships for a player interactively.
+     *
+     * Asks the player where to place each ships
+     * start and end points. After receiving valid
+     * ship coordinates, creates the ship
+     * objects for the player.
+     *
+     * @param player The player to add ships for.
+     */
     private void setupShips(Player player) {
 
     }
