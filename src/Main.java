@@ -97,6 +97,14 @@ public class Main {
 
     }
 
+    /**
+     * Creates ships in random coordinates for the player.
+     *
+     * Used mainly for creating AI ships without getting
+     * input from the player.
+     *
+     * @param player The player to create ships for.
+     */
     private void randomSetupShips(Player player) {
 
     }
