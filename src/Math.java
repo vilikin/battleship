@@ -70,6 +70,14 @@ public class Math {
     }
 
     public double StringToDouble(String text) {
-        
+        double result;
+
+        try {
+            result = Double.parseDouble(text);
+        } catch () {
+            System.out.println("text must contain only numbers");
+        }
+
+        return result;
     }
 }
