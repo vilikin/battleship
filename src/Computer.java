@@ -13,11 +13,6 @@ public class Computer extends Player {
     private AI ai;
 
     /**
-     * What ai should be used.
-     */
-    private AI ai;
-
-    /**
      * Default constructor for Computer.
      */
     public Computer() {
