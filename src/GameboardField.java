@@ -10,7 +10,7 @@ public class GameboardField {
     /**
      * Vertical coordinates.
      */
-    private final String[] verticalCoordinates = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+    private final String[] verticalCoordinates = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X"};
 
     /**
      * Horizontal coordinates.
@@ -47,7 +47,7 @@ public class GameboardField {
     }
 
     /**
-     * Sets fields width.
+     * Sets field width.
      *
      * Width of the field must be 5-50
      *
@@ -60,7 +60,7 @@ public class GameboardField {
     }
 
     /**
-     * Gets fields width.
+     * Returns field width.
      *
      * @return Width of the field.
      */
@@ -69,7 +69,7 @@ public class GameboardField {
     }
 
     /**
-     * Sets fields height.
+     * Sets field height.
      *
      * Height of the field must be 5-50.
      *
@@ -82,7 +82,7 @@ public class GameboardField {
     }
 
     /**
-     * Gets fields height.
+     * Returns field height.
      *
      * @return Height of the field.
      */
@@ -132,7 +132,17 @@ public class GameboardField {
     }
 
     /**
+     * Places players ships on the field.
+     */
+    public void placeShips(){
+        //TODO get ships from player
+        // place the ships on the field.
+    }
+
+    /**
      * Prints the field.
+     *
+     * Draws coordinates around the field.
      *
      * @return How the field currently looks like.
      */
