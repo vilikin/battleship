@@ -1,12 +1,11 @@
 /**
- * The class Math contains basic mathods to perform basic numeric operations
- * suchs as plus, minus, multiplication and division.
+ * The class Math contains basic mathods to perform basic numeric operations.
  *
  */
 public class Math {
 
     /**
-     * Add two integer values together and prints the sum of those numbers.
+     * Adds two integer values together and prints the sum of those numbers.
      *
      * @param number1 integer value
      * @param number2 integer value
@@ -59,7 +58,7 @@ public class Math {
      * @param text must contain only numbers
      * @return integer representation of given String
      */
-    public int StringToInt(String text) {
+    public int stringToInt(String text) {
         int result;
 
         try {
@@ -77,7 +76,7 @@ public class Math {
      * @param text must contain only numbers
      * @return double representation of given String
      */
-    public double StringToDouble(String text) {
+    public double stringToDouble(String text) {
         double result;
 
         try {
@@ -90,8 +89,7 @@ public class Math {
     }
 
     /**
-     * Takes two int numbers and returns random number between
-     * given two numbers.
+     * Takes two int numbers and returns random number between them.
      *
      * @param min number
      * @param max number
