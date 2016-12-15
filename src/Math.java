@@ -62,7 +62,7 @@ public class Math {
 
         try {
             result = Integer.parseInt(text);
-        } catch () {
+        } catch (NumberFormatException e) {
             System.out.println("text must contain only numbers!");
         }
 
