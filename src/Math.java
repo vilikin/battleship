@@ -82,7 +82,7 @@ public class Math {
 
         try {
             result = Double.parseDouble(text);
-        } catch () {
+        } catch (NumberFormatException e) {
             System.out.println("text must contain only numbers");
         }
 
