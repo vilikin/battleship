@@ -113,7 +113,7 @@ public class Math {
      * @return numbers random numbers in an array
      */
     public int[] randomNumbers(int amount, int min, int max) {
-        int [] numbers = new int[amount];
+        int[] numbers = new int[amount];
 
         for (int i = 0; i < amount; i++) {
             numbers[i] = random(min, max);
