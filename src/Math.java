@@ -50,4 +50,8 @@ public class Math {
         double result = (double) number1 / number2;
         return result;
     }
+
+    public int StringToInt(String text) {
+
+    }
 }
