@@ -2,10 +2,15 @@
  * Computer player for the game.
  *
  * @author Valtteri Poutanen valtteri.poutanen@hotmail.com
- * @version 2016.1126
+ * @version 2016.1128
  * @since 1.7
  **/
 public class Computer extends Player {
+
+    /**
+     * What ai should be used.
+     */
+    private AI ai;
 
     /**
      * Default constructor for Computer.
