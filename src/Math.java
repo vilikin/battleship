@@ -5,7 +5,7 @@
 public class Math {
 
     /**
-     * Adds two integer values together and prints the sum of those numbers.
+     * Adds two integer values together and returns the sum of those numbers.
      *
      * @param number1 integer value
      * @param number2 integer value
