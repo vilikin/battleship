@@ -93,7 +93,7 @@ public class Math {
      *
      * @param min number
      * @param max number
-     @ @return random number between min and max
+     * @return random number between min and max
      */
     public int random(int min, int max) {
         int randomNumber = (int) Math.floor(Math.random() * max) + min;
