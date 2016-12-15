@@ -21,10 +21,11 @@ public class Math {
      *
      * @param number1 number to substract from
      * @param number2 reducer
+     * @return result substraction of number1 and number2
      */
-    public void minus(int number1, int number2) {
+    public int minus(int number1, int number2) {
         int result = number1 - number2;
-        System.out.println(result);
+        return result;
     }
 
     /**
