@@ -99,4 +99,8 @@ public class Math {
         int randomNumber = (int) Math.floor(Math.random() * max) + min;
         return randomNumber;
     }
+
+    public int[] randomNumbers(int amount) {
+
+    }
 }
