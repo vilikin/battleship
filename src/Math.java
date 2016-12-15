@@ -86,4 +86,8 @@ public class Math {
 
         return result;
     }
+
+    public int random(int min, int max) {
+        
+    }
 }
