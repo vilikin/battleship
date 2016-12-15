@@ -51,6 +51,12 @@ public class Math {
         return result;
     }
 
+    /**
+     * Takes String argument that it tries to parse to integer.
+     *
+     * @param text must only contain numbers
+     * @return same text but in integer data type 
+     */
     public int StringToInt(String text) {
         int result;
 
