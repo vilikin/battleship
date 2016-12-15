@@ -101,6 +101,12 @@ public class Math {
     }
 
     public int[] randomNumbers(int amount) {
+        int [] numbers = new int[amount];
 
+        for (int i = 0; i < amount; i++) {
+            numbers[i] = random(min, max);
+        }
+
+        return numbers;
     }
 }
