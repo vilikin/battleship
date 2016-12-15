@@ -100,7 +100,7 @@ public class Math {
         return randomNumber;
     }
 
-    public int[] randomNumbers(int amount) {
+    public int[] randomNumbers(int amount, int min, int max) {
         int [] numbers = new int[amount];
 
         for (int i = 0; i < amount; i++) {
