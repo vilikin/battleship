@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Player includes simple methods for player and computer.
  *
@@ -9,6 +12,11 @@
 public abstract class Player {
 
     /**
+     * Contains the ships owned by this player.
+     */
+    protected List<Ship> ships;
+
+    /**
      * Holds player's name.
      */
     private String name;
@@ -16,7 +24,9 @@ public abstract class Player {
     /**
      * Initiates player object.
      */
-    public Player() {}
+    public Player() {
+        ships = new ArrayList<>();
+    }
 
     /**
      * Initiates player object with a name.
@@ -49,7 +59,20 @@ public abstract class Player {
      *
      * @param newShip a ship to be added for player.
      */
-    abstract void addShip(Ship newShip);
+    public void addShip(Ship newShip) {
+        ships.add(newShip);
+    }
+
+
+    /**
+     * Removes a ship from this players list of ships
+     *
+     * @param ship Ship to remove.
+     * @return True if ship was removed, false otherwise.
+     */
+    public boolean removeShip(Ship ship) {
+        return ships.remove(ship);
+    }
 
     /**
      * Returns player's name as a String.
@@ -67,5 +90,14 @@ public abstract class Player {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * Returns the ships owned by this player.
+     *
+     * @return List of ships owned by this player.
+     */
+    public List<Ship> getShips() {
+      return ships;
     }
 }

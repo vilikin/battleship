@@ -75,11 +75,58 @@ public class Main {
         if (players == 1) {
             computer = new Computer();
             gameboard = new Gameboard(player1, computer);
+            randomSetupShips(computer);
+            setupShips(player1);
         } else {
             player2 = new Human();
             gameboard = new Gameboard(player1, player2);
+            setupShips(player1);
+            setupShips(player2);
         }
 
         System.out.println(gameboard);
     }
+
+    /**
+     * Creates ships for a player interactively.
+     *
+     * Asks the player where to place each ships
+     * start and end points. After receiving valid
+     * ship coordinates, creates the ship
+     * objects for the player.
+     *
+     * @param player The player to add ships for.
+     */
+    private static void setupShips(Player player) {
+
+    }
+
+    /**
+     * Creates ships in random coordinates for the player.
+     *
+     * Used mainly for creating AI ships without getting
+     * input from the player.
+     *
+     * @param player The player to create ships for.
+     */
+    private static void randomSetupShips(Player player) {
+
+    }
+
+    /**
+     * Places a ship for a player.
+     *
+     * Gets input from the player for adding a single ship
+     * and validates if ship can be placed in given coordinates.
+     * This is repeated until the player gives a valid places
+     * a ship in valid coordinates or placing the ship was canceled.
+     *
+     * @param player The player to place a ship for.
+     * @return True if a ship was placed, otherwise false.
+     */
+    private static boolean placeShip(Player player) {
+        return false;
+    }
 }
+
+
