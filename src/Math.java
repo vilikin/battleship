@@ -43,6 +43,7 @@ public class Math {
      *
      * @param number1 dividend
      * @param number2 divider
+     * @return result division result
      */
     public double division(int number1, int number2) {
         double result = (double) number1 / number2;
