@@ -32,10 +32,11 @@ public class Math {
      *
      * @param number1 integer value
      * @param number2 integer value
+     * @return result multiplication result
      */
-    public void multiplication(int number1, int number2) {
+    public int multiplication(int number1, int number2) {
         int result = number1 * number2;
-        System.out.println(result);
+        return result;
     }
 
     /**
