@@ -68,4 +68,8 @@ public class Math {
 
         return result;
     }
+
+    public double StringToDouble(String text) {
+        
+    }
 }
