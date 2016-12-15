@@ -100,6 +100,18 @@ public class Math {
         return randomNumber;
     }
 
+    /**
+     * Returns random numbers in an array.
+     *
+     * Random numbers are generated between numbers min and max.
+     * And amount represents the number how many random numbers
+     * are generated.
+     *
+     * @param amount total number of random numbers generated
+     * @param min smallest number random number can be
+     * @param max highest number random number can be
+     * @return numbers random numbers in an array
+     */
     public int[] randomNumbers(int amount, int min, int max) {
         int [] numbers = new int[amount];
 
