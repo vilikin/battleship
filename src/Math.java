@@ -69,6 +69,12 @@ public class Math {
         return result;
     }
 
+    /**
+     * Takes String argument that it tries to parse to double.
+     *
+     * @param text must contain only numbers
+     * @return double representation of given String
+     */
     public double StringToDouble(String text) {
         double result;
 
