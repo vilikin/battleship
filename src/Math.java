@@ -88,6 +88,7 @@ public class Math {
     }
 
     public int random(int min, int max) {
-        
+        int randomNumber = (int) Math.floor(Math.random() * max) + min;
+        return randomNumber;
     }
 }
