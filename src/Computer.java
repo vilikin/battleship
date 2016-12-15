@@ -2,10 +2,15 @@
  * Computer player for the game.
  *
  * @author Valtteri Poutanen valtteri.poutanen@hotmail.com
- * @version 2016.1126
+ * @version 2016.1128
  * @since 1.7
  **/
 public class Computer extends Player {
+
+    /**
+     * What ai should be used.
+     */
+    private AI ai;
 
     /**
      * Default constructor for Computer.
@@ -35,14 +40,5 @@ public class Computer extends Player {
     public boolean shoot(Coordinate coordinate) {
 
         return false;
-    }
-
-    /**
-     * Adds a ship for the computer.
-     *
-     * @param newShip Ship to be added
-     */
-    public void addShip(Ship newShip) {
-
     }
 }
