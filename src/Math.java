@@ -10,10 +10,11 @@ public class Math {
      *
      * @param number1 integer value
      * @param number2 integer value
+     * @return result sum of number1 and number2
      */
-    public void plus(int number1, int number2) {
+    public int plus(int number1, int number2) {
         int result = number1 + number2;
-        System.out.println(result);
+        return result;
     }
 
     /**
