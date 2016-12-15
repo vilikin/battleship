@@ -52,6 +52,14 @@ public class Math {
     }
 
     public int StringToInt(String text) {
+        int result;
 
+        try {
+            result = Integer.parseInt(text);
+        } catch () {
+            System.out.println("text must contain only numbers!");
+        }
+
+        return result;
     }
 }
